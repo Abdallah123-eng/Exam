@@ -1,4 +1,5 @@
 import 'package:exam_ui/home/home.dart';
+import 'package:exam_ui/home2/home2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: HomeScreen.routeName,
+      initialRoute: HomeScreen2.routeName,
       routes:{
+        HomeScreen2.routeName: (context)=> HomeScreen2(),
         HomeScreen.routeName: (context)=> HomeScreen(),
 
       },
