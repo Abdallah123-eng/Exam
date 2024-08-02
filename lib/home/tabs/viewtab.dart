@@ -162,7 +162,7 @@ class ViewTab extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    "Excercise",
+                    "Excercise ",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                   Expanded(child: Text("")),
